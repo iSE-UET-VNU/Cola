@@ -33,7 +33,10 @@ def extract_img_embedding(dataset_name, batch_size, encode_model):
 
     for split in ['train', 'test']:
         imgs = [example['img'] for example in dataset[split]]
-        batch_labels = [example['label'] for example in dataset[split]]
+        if dataset_name == 'cifar100':
+            batch_labels = [example['fine_label'] for example in dataset[split]]
+        else:
+            batch_labels = [example['label'] for example in dataset[split]]
         for i in tqdm(range(0, len(imgs), batch_size)):
             batch_imgs = imgs[i:i + batch_size]
             batch_embeddings = embed_img_batch(batch_imgs, processor, model)

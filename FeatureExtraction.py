@@ -5,10 +5,12 @@ from transformers import AutoImageProcessor, AutoModel
 from datasets import load_dataset, Dataset
 from tqdm import tqdm
 import numpy as np
+import pandas as pd
+from pkg.NormName import norm_name
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-def extract_img_embedding(dataset_name, batch_size, encode_model):
+def extract_img_feature(dataset_name, batch_size, encode_model):
   
     def embed_img_batch(batch_imgs, processor, model):
         
@@ -46,18 +48,19 @@ def extract_img_embedding(dataset_name, batch_size, encode_model):
     embeddings = np.vstack(embeddings)
     labels = np.array(labels)
 
-    encode_model_filename = encode_model.replace('/', '_').replace('-', '_')
-    dataset_dirname = dataset_name.replace('/', '_').replace('-', '_')
+    encode_model_filename = norm_name(encode_model)
+    dataset_dirname = norm_name(dataset_name)
     os.makedirs(f'Data/{dataset_dirname}', exist_ok=True)
     np.save(f'Data/{dataset_dirname}/{encode_model_filename}.npy', embeddings)
     np.save(f'Data/{dataset_dirname}/labels.npy', labels)
+    
 
     print(f"Embeddings saved! Shape: {embeddings.shape}")
     print(f"Labels saved! Shape: {labels.shape}")
     return encode_model_filename, dataset_dirname
     
 
-def extract_text_embedding(dataset_name, batch_size, encode_model):
+def extract_text_feature(dataset_name, batch_size, encode_model):
 
     def embed_text_batch(batch_texts, tokenizer, model):
         
@@ -94,8 +97,8 @@ def extract_text_embedding(dataset_name, batch_size, encode_model):
     embeddings = np.vstack(embeddings)
     labels = np.array(labels)
 
-    encode_model_filename = encode_model.replace('/', '_').replace('-', '_')
-    dataset_dirname = dataset_name.replace('/', '_').replace('-', '_')
+    encode_model_filename = norm_name(encode_model)
+    dataset_dirname = norm_name(dataset_name)
     os.makedirs(f'Data/{dataset_dirname}', exist_ok=True)
     np.save(f'Data/{dataset_dirname}/{encode_model_filename}.npy', embeddings)
     np.save(f'Data/{dataset_dirname}/labels.npy', labels)

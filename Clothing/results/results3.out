@@ -1,0 +1,110 @@
+/home/lnduyphong/COLA/cola/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Actual noise rate: 0.2
+# of processed samples: 72409
+# of noise samples: 14349
+--------------------------------------------
+Local Results:
+Iteration: 1, Dataset: Clothing1M
+Precision: 0.345
+Recall: 0.665
+F1: 0.454
+# of wrong detected error instances: 18141
+# of true detected error instances: 9540
+# of current noisy instances: 27681
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2246246337890625, Val Loss: 2.1937098503112793
+Epoch 20/200, Loss: 1.9249522686004639, Val Loss: 1.9111509323120117
+Epoch 40/200, Loss: 1.8824164867401123, Val Loss: 1.8800750970840454
+Epoch 60/200, Loss: 1.875811219215393, Val Loss: 1.8603845834732056
+Epoch 80/200, Loss: 1.8583177328109741, Val Loss: 1.8577958345413208
+Early stopping at epoch 94
+--------------------------------------------
+Global Results:
+Iteration: 1, Dataset: Clothing1M
+Precision: 0.411
+Recall: 0.595
+F1: 0.486
+# of wrong detected error instances: 12217
+# of true detected error instances: 8538
+# of current noisy instances: 20755
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.215731382369995, Val Loss: 2.187396764755249
+Epoch 20/200, Loss: 1.8766381740570068, Val Loss: 1.8804751634597778
+Epoch 40/200, Loss: 1.8534780740737915, Val Loss: 1.857064127922058
+Epoch 60/200, Loss: 1.8719347715377808, Val Loss: 1.852436900138855
+Epoch 80/200, Loss: 1.8399895429611206, Val Loss: 1.8460677862167358
+Early stopping at epoch 88
+--------------------------------------------
+Global Results:
+Iteration: 2, Dataset: Clothing1M
+Precision: 0.428
+Recall: 0.575
+F1: 0.491
+# of wrong detected error instances: 11040
+# of true detected error instances: 8253
+# of current noisy instances: 19293
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.0777029991149902, Val Loss: 2.086230754852295
+Epoch 20/200, Loss: 1.9213651418685913, Val Loss: 1.928712010383606
+Epoch 40/200, Loss: 1.8968384265899658, Val Loss: 1.9149057865142822
+Epoch 60/200, Loss: 1.8920105695724487, Val Loss: 1.888643741607666
+Early stopping at epoch 77
+--------------------------------------------
+Global Results:
+Iteration: 3, Dataset: Clothing1M
+Precision: 0.436
+Recall: 0.562
+F1: 0.491
+# of wrong detected error instances: 10416
+# of true detected error instances: 8066
+# of current noisy instances: 18482
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2226991653442383, Val Loss: 2.1489479541778564
+Epoch 20/200, Loss: 1.896662950515747, Val Loss: 1.8954805135726929
+Epoch 40/200, Loss: 1.897914171218872, Val Loss: 1.8873721361160278
+Early stopping at epoch 57
+--------------------------------------------
+Global Results:
+Iteration: 4, Dataset: Clothing1M
+Precision: 0.445
+Recall: 0.551
+F1: 0.492
+# of wrong detected error instances: 9865
+# of true detected error instances: 7910
+# of current noisy instances: 17775
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2556211948394775, Val Loss: 2.2569799423217773
+Epoch 20/200, Loss: 1.9088798761367798, Val Loss: 1.924784779548645
+Epoch 40/200, Loss: 1.8766257762908936, Val Loss: 1.897887110710144
+Epoch 60/200, Loss: 1.8670259714126587, Val Loss: 1.883923888206482
+Early stopping at epoch 69
+--------------------------------------------
+Global Results:
+Iteration: 5, Dataset: Clothing1M
+Precision: 0.452
+Recall: 0.542
+F1: 0.493
+# of wrong detected error instances: 9406
+# of true detected error instances: 7773
+# of current noisy instances: 17179
+--------------------------------------------
+
+
+Folder model_saving has been deleted successfully.
+Run time: 1029.3219063282013

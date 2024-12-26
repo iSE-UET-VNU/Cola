@@ -90,7 +90,7 @@ class Detector:
             os.makedirs(best_model_dir)
         if n_iterations == -1:
             n_iterations = 999
-            mem = len(self.noise_index)
+        mem = len(self.noise_index)
         for iteration in range(n_iterations):
             best_model_path = os.path.join(best_model_dir, f'best_model_{iteration}.pt')
             best_val_loss = float('inf')

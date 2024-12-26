@@ -1,0 +1,1122 @@
+/home/lnduyphong/COLA/cola/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Actual noise rate: 0.2
+# of processed samples: 72409
+# of noise samples: 14349
+--------------------------------------------
+Local Results:
+Iteration: 1, Dataset: Clothing1M
+Precision: 0.345
+Recall: 0.665
+F1: 0.454
+# of wrong detected error instances: 18141
+# of true detected error instances: 9540
+# of current noisy instances: 27681
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.1686224937438965, Val Loss: 2.109592914581299
+Epoch 20/200, Loss: 1.918472170829773, Val Loss: 1.8791977167129517
+Epoch 40/200, Loss: 1.872933030128479, Val Loss: 1.8638726472854614
+Epoch 60/200, Loss: 1.8834853172302246, Val Loss: 1.862050175666809
+Early stopping at epoch 64
+--------------------------------------------
+Global Results:
+Iteration: 1, Dataset: Clothing1M
+Precision: 0.416
+Recall: 0.602
+F1: 0.492
+# of wrong detected error instances: 12117
+# of true detected error instances: 8639
+# of current noisy instances: 20756
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.1116080284118652, Val Loss: 2.1406362056732178
+Epoch 20/200, Loss: 1.8825981616973877, Val Loss: 1.9348640441894531
+Early stopping at epoch 32
+--------------------------------------------
+Global Results:
+Iteration: 2, Dataset: Clothing1M
+Precision: 0.434
+Recall: 0.579
+F1: 0.496
+# of wrong detected error instances: 10820
+# of true detected error instances: 8305
+# of current noisy instances: 19125
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2203500270843506, Val Loss: 2.2211766242980957
+Epoch 20/200, Loss: 1.9163404703140259, Val Loss: 1.9146156311035156
+Epoch 40/200, Loss: 1.912506341934204, Val Loss: 1.897776484489441
+Early stopping at epoch 53
+--------------------------------------------
+Global Results:
+Iteration: 3, Dataset: Clothing1M
+Precision: 0.445
+Recall: 0.564
+F1: 0.497
+# of wrong detected error instances: 10080
+# of true detected error instances: 8086
+# of current noisy instances: 18166
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.231092929840088, Val Loss: 2.217378854751587
+Epoch 20/200, Loss: 2.0448522567749023, Val Loss: 2.024055242538452
+Epoch 40/200, Loss: 1.949338436126709, Val Loss: 1.917267918586731
+Early stopping at epoch 52
+--------------------------------------------
+Global Results:
+Iteration: 4, Dataset: Clothing1M
+Precision: 0.455
+Recall: 0.546
+F1: 0.496
+# of wrong detected error instances: 9394
+# of true detected error instances: 7832
+# of current noisy instances: 17226
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.190011501312256, Val Loss: 2.19594407081604
+Epoch 20/200, Loss: 1.9155901670455933, Val Loss: 1.9425275325775146
+Early stopping at epoch 39
+--------------------------------------------
+Global Results:
+Iteration: 5, Dataset: Clothing1M
+Precision: 0.458
+Recall: 0.535
+F1: 0.494
+# of wrong detected error instances: 9068
+# of true detected error instances: 7677
+# of current noisy instances: 16745
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.213029384613037, Val Loss: 2.184466600418091
+Early stopping at epoch 17
+--------------------------------------------
+Global Results:
+Iteration: 6, Dataset: Clothing1M
+Precision: 0.465
+Recall: 0.516
+F1: 0.489
+# of wrong detected error instances: 8521
+# of true detected error instances: 7401
+# of current noisy instances: 15922
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2394320964813232, Val Loss: 2.220158338546753
+Epoch 20/200, Loss: 1.9470049142837524, Val Loss: 1.9446738958358765
+Epoch 40/200, Loss: 1.9136022329330444, Val Loss: 1.9118448495864868
+Epoch 60/200, Loss: 1.894260287284851, Val Loss: 1.900898814201355
+Epoch 80/200, Loss: 1.879634141921997, Val Loss: 1.8979755640029907
+Epoch 100/200, Loss: 1.8834127187728882, Val Loss: 1.8951553106307983
+Early stopping at epoch 115
+--------------------------------------------
+Global Results:
+Iteration: 7, Dataset: Clothing1M
+Precision: 0.47
+Recall: 0.513
+F1: 0.491
+# of wrong detected error instances: 8282
+# of true detected error instances: 7355
+# of current noisy instances: 15637
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.195727825164795, Val Loss: 2.2169511318206787
+Epoch 20/200, Loss: 1.9571027755737305, Val Loss: 1.9512770175933838
+Epoch 40/200, Loss: 1.8891956806182861, Val Loss: 1.9042184352874756
+Early stopping at epoch 45
+--------------------------------------------
+Global Results:
+Iteration: 8, Dataset: Clothing1M
+Precision: 0.475
+Recall: 0.508
+F1: 0.491
+# of wrong detected error instances: 8058
+# of true detected error instances: 7285
+# of current noisy instances: 15343
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.200821876525879, Val Loss: 2.1754376888275146
+Early stopping at epoch 19
+--------------------------------------------
+Global Results:
+Iteration: 9, Dataset: Clothing1M
+Precision: 0.48
+Recall: 0.497
+F1: 0.488
+# of wrong detected error instances: 7732
+# of true detected error instances: 7126
+# of current noisy instances: 14858
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.143176555633545, Val Loss: 2.135793924331665
+Epoch 20/200, Loss: 1.9525362253189087, Val Loss: 1.9555970430374146
+Epoch 40/200, Loss: 1.9378048181533813, Val Loss: 1.938158392906189
+Early stopping at epoch 59
+--------------------------------------------
+Global Results:
+Iteration: 10, Dataset: Clothing1M
+Precision: 0.483
+Recall: 0.493
+F1: 0.488
+# of wrong detected error instances: 7565
+# of true detected error instances: 7071
+# of current noisy instances: 14636
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2533717155456543, Val Loss: 2.2504923343658447
+Epoch 20/200, Loss: 1.9844672679901123, Val Loss: 2.0250117778778076
+Epoch 40/200, Loss: 1.9709428548812866, Val Loss: 1.9934967756271362
+Epoch 60/200, Loss: 1.9146651029586792, Val Loss: 1.9405852556228638
+Epoch 80/200, Loss: 1.921498417854309, Val Loss: 1.930977702140808
+Early stopping at epoch 95
+--------------------------------------------
+Global Results:
+Iteration: 11, Dataset: Clothing1M
+Precision: 0.485
+Recall: 0.489
+F1: 0.487
+# of wrong detected error instances: 7469
+# of true detected error instances: 7022
+# of current noisy instances: 14491
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.228405475616455, Val Loss: 2.2369985580444336
+Epoch 20/200, Loss: 1.9627492427825928, Val Loss: 1.9982050657272339
+Early stopping at epoch 34
+--------------------------------------------
+Global Results:
+Iteration: 12, Dataset: Clothing1M
+Precision: 0.488
+Recall: 0.485
+F1: 0.486
+# of wrong detected error instances: 7312
+# of true detected error instances: 6958
+# of current noisy instances: 14270
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.1892824172973633, Val Loss: 2.1686313152313232
+Epoch 20/200, Loss: 2.0097036361694336, Val Loss: 2.031672477722168
+Epoch 40/200, Loss: 1.9669365882873535, Val Loss: 2.006561756134033
+Epoch 60/200, Loss: 1.9377456903457642, Val Loss: 1.9609774351119995
+Epoch 80/200, Loss: 1.9380372762680054, Val Loss: 1.951416254043579
+Epoch 100/200, Loss: 1.923779010772705, Val Loss: 1.9483087062835693
+Epoch 120/200, Loss: 1.9008690118789673, Val Loss: 1.9317762851715088
+Epoch 140/200, Loss: 1.8870946168899536, Val Loss: 1.9295343160629272
+Early stopping at epoch 144
+--------------------------------------------
+Global Results:
+Iteration: 13, Dataset: Clothing1M
+Precision: 0.489
+Recall: 0.484
+F1: 0.486
+# of wrong detected error instances: 7268
+# of true detected error instances: 6942
+# of current noisy instances: 14210
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.279754638671875, Val Loss: 2.206576108932495
+Epoch 20/200, Loss: 2.0286123752593994, Val Loss: 1.9821560382843018
+Epoch 40/200, Loss: 1.9361827373504639, Val Loss: 1.9452948570251465
+Epoch 60/200, Loss: 1.9427189826965332, Val Loss: 1.940276026725769
+Epoch 80/200, Loss: 1.9422646760940552, Val Loss: 1.926753282546997
+Early stopping at epoch 95
+--------------------------------------------
+Global Results:
+Iteration: 14, Dataset: Clothing1M
+Precision: 0.489
+Recall: 0.482
+F1: 0.486
+# of wrong detected error instances: 7221
+# of true detected error instances: 6923
+# of current noisy instances: 14144
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2509427070617676, Val Loss: 2.195894718170166
+Epoch 20/200, Loss: 1.904862642288208, Val Loss: 1.996631383895874
+Epoch 40/200, Loss: 1.954824447631836, Val Loss: 1.9882614612579346
+Epoch 60/200, Loss: 1.954824447631836, Val Loss: 1.978882908821106
+Early stopping at epoch 63
+--------------------------------------------
+Global Results:
+Iteration: 15, Dataset: Clothing1M
+Precision: 0.493
+Recall: 0.481
+F1: 0.487
+# of wrong detected error instances: 7108
+# of true detected error instances: 6905
+# of current noisy instances: 14013
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.3184587955474854, Val Loss: 2.1951799392700195
+Epoch 20/200, Loss: 1.9649640321731567, Val Loss: 2.0260517597198486
+Early stopping at epoch 24
+--------------------------------------------
+Global Results:
+Iteration: 16, Dataset: Clothing1M
+Precision: 0.496
+Recall: 0.47
+F1: 0.483
+# of wrong detected error instances: 6865
+# of true detected error instances: 6746
+# of current noisy instances: 13611
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.200289249420166, Val Loss: 2.1669719219207764
+Epoch 20/200, Loss: 1.9693695306777954, Val Loss: 1.9521679878234863
+Epoch 40/200, Loss: 1.960024118423462, Val Loss: 1.935308575630188
+Epoch 60/200, Loss: 1.9361885786056519, Val Loss: 1.9247864484786987
+Early stopping at epoch 77
+--------------------------------------------
+Global Results:
+Iteration: 17, Dataset: Clothing1M
+Precision: 0.498
+Recall: 0.469
+F1: 0.483
+# of wrong detected error instances: 6766
+# of true detected error instances: 6724
+# of current noisy instances: 13490
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.187715768814087, Val Loss: 2.227246046066284
+Epoch 20/200, Loss: 1.8838566541671753, Val Loss: 1.969153881072998
+Early stopping at epoch 37
+--------------------------------------------
+Global Results:
+Iteration: 18, Dataset: Clothing1M
+Precision: 0.499
+Recall: 0.466
+F1: 0.482
+# of wrong detected error instances: 6698
+# of true detected error instances: 6681
+# of current noisy instances: 13379
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.231839179992676, Val Loss: 2.2397243976593018
+Epoch 20/200, Loss: 1.9779294729232788, Val Loss: 1.989273190498352
+Epoch 40/200, Loss: 1.9631901979446411, Val Loss: 1.9718097448349
+Early stopping at epoch 51
+--------------------------------------------
+Global Results:
+Iteration: 19, Dataset: Clothing1M
+Precision: 0.501
+Recall: 0.463
+F1: 0.481
+# of wrong detected error instances: 6610
+# of true detected error instances: 6643
+# of current noisy instances: 13253
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2255899906158447, Val Loss: 2.210024118423462
+Epoch 20/200, Loss: 2.0052316188812256, Val Loss: 2.033311128616333
+Epoch 40/200, Loss: 2.004753589630127, Val Loss: 2.0234768390655518
+Early stopping at epoch 45
+--------------------------------------------
+Global Results:
+Iteration: 20, Dataset: Clothing1M
+Precision: 0.505
+Recall: 0.461
+F1: 0.482
+# of wrong detected error instances: 6490
+# of true detected error instances: 6609
+# of current noisy instances: 13099
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2349154949188232, Val Loss: 2.243584156036377
+Epoch 20/200, Loss: 1.9601948261260986, Val Loss: 1.9753868579864502
+Epoch 40/200, Loss: 1.9354487657546997, Val Loss: 1.9506475925445557
+Epoch 60/200, Loss: 1.948846697807312, Val Loss: 1.9388816356658936
+Early stopping at epoch 67
+--------------------------------------------
+Global Results:
+Iteration: 21, Dataset: Clothing1M
+Precision: 0.505
+Recall: 0.46
+F1: 0.482
+# of wrong detected error instances: 6465
+# of true detected error instances: 6600
+# of current noisy instances: 13065
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.221724510192871, Val Loss: 2.2256033420562744
+Epoch 20/200, Loss: 1.9695460796356201, Val Loss: 1.9870573282241821
+Epoch 40/200, Loss: 1.9709309339523315, Val Loss: 1.9544146060943604
+Epoch 60/200, Loss: 1.9513527154922485, Val Loss: 1.9538288116455078
+Early stopping at epoch 80
+--------------------------------------------
+Global Results:
+Iteration: 22, Dataset: Clothing1M
+Precision: 0.506
+Recall: 0.459
+F1: 0.482
+# of wrong detected error instances: 6443
+# of true detected error instances: 6593
+# of current noisy instances: 13036
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.298879623413086, Val Loss: 2.2400996685028076
+Epoch 20/200, Loss: 1.996972680091858, Val Loss: 1.9944194555282593
+Epoch 40/200, Loss: 1.9782956838607788, Val Loss: 1.9774032831192017
+Epoch 60/200, Loss: 1.9299477338790894, Val Loss: 1.9493058919906616
+Epoch 80/200, Loss: 1.9353312253952026, Val Loss: 1.9459623098373413
+Early stopping at epoch 95
+--------------------------------------------
+Global Results:
+Iteration: 23, Dataset: Clothing1M
+Precision: 0.507
+Recall: 0.457
+F1: 0.481
+# of wrong detected error instances: 6395
+# of true detected error instances: 6564
+# of current noisy instances: 12959
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2185215950012207, Val Loss: 2.2253026962280273
+Epoch 20/200, Loss: 1.9746490716934204, Val Loss: 1.9682445526123047
+Epoch 40/200, Loss: 1.934997797012329, Val Loss: 1.957936406135559
+Early stopping at epoch 41
+--------------------------------------------
+Global Results:
+Iteration: 24, Dataset: Clothing1M
+Precision: 0.508
+Recall: 0.453
+F1: 0.479
+# of wrong detected error instances: 6304
+# of true detected error instances: 6502
+# of current noisy instances: 12806
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.1931517124176025, Val Loss: 2.2442777156829834
+Epoch 20/200, Loss: 2.011627674102783, Val Loss: 2.047980546951294
+Epoch 40/200, Loss: 1.8911904096603394, Val Loss: 1.9917809963226318
+Epoch 60/200, Loss: 1.9172499179840088, Val Loss: 1.9580035209655762
+Early stopping at epoch 62
+--------------------------------------------
+Global Results:
+Iteration: 25, Dataset: Clothing1M
+Precision: 0.508
+Recall: 0.452
+F1: 0.479
+# of wrong detected error instances: 6275
+# of true detected error instances: 6491
+# of current noisy instances: 12766
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2069902420043945, Val Loss: 2.2068750858306885
+Epoch 20/200, Loss: 1.9782695770263672, Val Loss: 2.0200440883636475
+Epoch 40/200, Loss: 1.9280786514282227, Val Loss: 1.9847499132156372
+Epoch 60/200, Loss: 1.8918827772140503, Val Loss: 1.9471957683563232
+Epoch 80/200, Loss: 1.934836745262146, Val Loss: 1.9415770769119263
+Epoch 100/200, Loss: 1.8975965976715088, Val Loss: 1.9353303909301758
+Early stopping at epoch 112
+--------------------------------------------
+Global Results:
+Iteration: 26, Dataset: Clothing1M
+Precision: 0.509
+Recall: 0.452
+F1: 0.479
+# of wrong detected error instances: 6260
+# of true detected error instances: 6483
+# of current noisy instances: 12743
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.3261351585388184, Val Loss: 2.245654582977295
+Epoch 20/200, Loss: 2.0304131507873535, Val Loss: 1.9852862358093262
+Epoch 40/200, Loss: 2.006808280944824, Val Loss: 1.9714480638504028
+Epoch 60/200, Loss: 1.9781125783920288, Val Loss: 1.9505846500396729
+Epoch 80/200, Loss: 1.9686182737350464, Val Loss: 1.9397414922714233
+Epoch 100/200, Loss: 1.9227330684661865, Val Loss: 1.9360532760620117
+Epoch 120/200, Loss: 1.9520988464355469, Val Loss: 1.9297653436660767
+Early stopping at epoch 126
+--------------------------------------------
+Global Results:
+Iteration: 27, Dataset: Clothing1M
+Precision: 0.51
+Recall: 0.45
+F1: 0.478
+# of wrong detected error instances: 6214
+# of true detected error instances: 6462
+# of current noisy instances: 12676
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.3236517906188965, Val Loss: 2.224069833755493
+Epoch 20/200, Loss: 1.9598513841629028, Val Loss: 1.9696189165115356
+Early stopping at epoch 26
+--------------------------------------------
+Global Results:
+Iteration: 28, Dataset: Clothing1M
+Precision: 0.512
+Recall: 0.449
+F1: 0.479
+# of wrong detected error instances: 6155
+# of true detected error instances: 6449
+# of current noisy instances: 12604
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.249579668045044, Val Loss: 2.2548530101776123
+Epoch 20/200, Loss: 1.97050940990448, Val Loss: 1.9818527698516846
+Epoch 40/200, Loss: 1.9822964668273926, Val Loss: 1.9672741889953613
+Early stopping at epoch 46
+--------------------------------------------
+Global Results:
+Iteration: 29, Dataset: Clothing1M
+Precision: 0.513
+Recall: 0.448
+F1: 0.478
+# of wrong detected error instances: 6118
+# of true detected error instances: 6433
+# of current noisy instances: 12551
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.269757032394409, Val Loss: 2.1982078552246094
+Epoch 20/200, Loss: 2.0704843997955322, Val Loss: 2.0231173038482666
+Epoch 40/200, Loss: 2.041428565979004, Val Loss: 1.976531982421875
+Epoch 60/200, Loss: 2.0291850566864014, Val Loss: 1.9570879936218262
+Epoch 80/200, Loss: 1.974951148033142, Val Loss: 1.9530597925186157
+Epoch 100/200, Loss: 1.989130973815918, Val Loss: 1.9391632080078125
+Epoch 120/200, Loss: 1.9555320739746094, Val Loss: 1.9354090690612793
+Epoch 140/200, Loss: 1.9379830360412598, Val Loss: 1.9311232566833496
+Early stopping at epoch 148
+--------------------------------------------
+Global Results:
+Iteration: 30, Dataset: Clothing1M
+Precision: 0.513
+Recall: 0.448
+F1: 0.478
+# of wrong detected error instances: 6106
+# of true detected error instances: 6425
+# of current noisy instances: 12531
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2156565189361572, Val Loss: 2.1967597007751465
+Epoch 20/200, Loss: 1.9394582509994507, Val Loss: 2.00113582611084
+Epoch 40/200, Loss: 1.9459898471832275, Val Loss: 1.9587483406066895
+Epoch 60/200, Loss: 1.8811286687850952, Val Loss: 1.939875841140747
+Early stopping at epoch 76
+--------------------------------------------
+Global Results:
+Iteration: 31, Dataset: Clothing1M
+Precision: 0.514
+Recall: 0.447
+F1: 0.478
+# of wrong detected error instances: 6078
+# of true detected error instances: 6420
+# of current noisy instances: 12498
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.290536880493164, Val Loss: 2.259361743927002
+Epoch 20/200, Loss: 2.0183472633361816, Val Loss: 2.001979351043701
+Epoch 40/200, Loss: 1.9510644674301147, Val Loss: 1.9615339040756226
+Epoch 60/200, Loss: 1.9318329095840454, Val Loss: 1.950472354888916
+Epoch 80/200, Loss: 1.928356409072876, Val Loss: 1.9441606998443604
+Early stopping at epoch 84
+--------------------------------------------
+Global Results:
+Iteration: 32, Dataset: Clothing1M
+Precision: 0.514
+Recall: 0.447
+F1: 0.478
+# of wrong detected error instances: 6058
+# of true detected error instances: 6412
+# of current noisy instances: 12470
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.3033275604248047, Val Loss: 2.289140462875366
+Epoch 20/200, Loss: 2.0756947994232178, Val Loss: 2.006418466567993
+Epoch 40/200, Loss: 2.0250048637390137, Val Loss: 2.028226852416992
+Epoch 60/200, Loss: 1.988521933555603, Val Loss: 1.9586237668991089
+Early stopping at epoch 74
+--------------------------------------------
+Global Results:
+Iteration: 33, Dataset: Clothing1M
+Precision: 0.515
+Recall: 0.446
+F1: 0.478
+# of wrong detected error instances: 6035
+# of true detected error instances: 6398
+# of current noisy instances: 12433
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.309781551361084, Val Loss: 2.298992395401001
+Epoch 20/200, Loss: 2.0103495121002197, Val Loss: 2.0037662982940674
+Epoch 40/200, Loss: 1.955872893333435, Val Loss: 1.9630872011184692
+Early stopping at epoch 45
+--------------------------------------------
+Global Results:
+Iteration: 34, Dataset: Clothing1M
+Precision: 0.515
+Recall: 0.444
+F1: 0.477
+# of wrong detected error instances: 5995
+# of true detected error instances: 6366
+# of current noisy instances: 12361
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.382920026779175, Val Loss: 2.269207000732422
+Epoch 20/200, Loss: 2.0494167804718018, Val Loss: 2.028125286102295
+Epoch 40/200, Loss: 2.0559005737304688, Val Loss: 2.018787145614624
+Epoch 60/200, Loss: 1.95343816280365, Val Loss: 1.9606627225875854
+Epoch 80/200, Loss: 1.9545668363571167, Val Loss: 1.9451195001602173
+Epoch 100/200, Loss: 1.892598032951355, Val Loss: 1.937511682510376
+Epoch 120/200, Loss: 1.8973530530929565, Val Loss: 1.9343336820602417
+Epoch 140/200, Loss: 1.9158254861831665, Val Loss: 1.9299196004867554
+Epoch 160/200, Loss: 1.9015026092529297, Val Loss: 1.930214285850525
+Early stopping at epoch 164
+--------------------------------------------
+Global Results:
+Iteration: 35, Dataset: Clothing1M
+Precision: 0.516
+Recall: 0.443
+F1: 0.477
+# of wrong detected error instances: 5974
+# of true detected error instances: 6361
+# of current noisy instances: 12335
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.300733804702759, Val Loss: 2.2549901008605957
+Epoch 20/200, Loss: 2.1216747760772705, Val Loss: 2.07228946685791
+Epoch 40/200, Loss: 2.046903371810913, Val Loss: 2.0219287872314453
+Epoch 60/200, Loss: 2.0164432525634766, Val Loss: 1.9955157041549683
+Early stopping at epoch 66
+--------------------------------------------
+Global Results:
+Iteration: 36, Dataset: Clothing1M
+Precision: 0.516
+Recall: 0.442
+F1: 0.476
+# of wrong detected error instances: 5958
+# of true detected error instances: 6349
+# of current noisy instances: 12307
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.160799741744995, Val Loss: 2.1286280155181885
+Epoch 20/200, Loss: 2.002312421798706, Val Loss: 1.9943448305130005
+Early stopping at epoch 23
+--------------------------------------------
+Global Results:
+Iteration: 37, Dataset: Clothing1M
+Precision: 0.517
+Recall: 0.44
+F1: 0.476
+# of wrong detected error instances: 5904
+# of true detected error instances: 6318
+# of current noisy instances: 12222
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.005216598510742, Val Loss: 2.1031341552734375
+Epoch 20/200, Loss: 1.8976818323135376, Val Loss: 1.9729291200637817
+Early stopping at epoch 32
+--------------------------------------------
+Global Results:
+Iteration: 38, Dataset: Clothing1M
+Precision: 0.518
+Recall: 0.439
+F1: 0.475
+# of wrong detected error instances: 5865
+# of true detected error instances: 6302
+# of current noisy instances: 12167
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.316182851791382, Val Loss: 2.2296643257141113
+Epoch 20/200, Loss: 2.0030508041381836, Val Loss: 1.9901785850524902
+Epoch 40/200, Loss: 1.9250752925872803, Val Loss: 1.9775182008743286
+Early stopping at epoch 56
+--------------------------------------------
+Global Results:
+Iteration: 39, Dataset: Clothing1M
+Precision: 0.518
+Recall: 0.439
+F1: 0.475
+# of wrong detected error instances: 5859
+# of true detected error instances: 6294
+# of current noisy instances: 12153
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.248138904571533, Val Loss: 2.238649845123291
+Epoch 20/200, Loss: 1.998013973236084, Val Loss: 2.008988857269287
+Epoch 40/200, Loss: 1.9398709535598755, Val Loss: 1.992195725440979
+Epoch 60/200, Loss: 1.9119608402252197, Val Loss: 1.9487944841384888
+Early stopping at epoch 73
+--------------------------------------------
+Global Results:
+Iteration: 40, Dataset: Clothing1M
+Precision: 0.518
+Recall: 0.438
+F1: 0.475
+# of wrong detected error instances: 5845
+# of true detected error instances: 6288
+# of current noisy instances: 12133
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.186349391937256, Val Loss: 2.1678340435028076
+Epoch 20/200, Loss: 1.9801771640777588, Val Loss: 2.0061583518981934
+Early stopping at epoch 37
+--------------------------------------------
+Global Results:
+Iteration: 41, Dataset: Clothing1M
+Precision: 0.519
+Recall: 0.437
+F1: 0.475
+# of wrong detected error instances: 5825
+# of true detected error instances: 6277
+# of current noisy instances: 12102
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2041397094726562, Val Loss: 2.194734811782837
+Epoch 20/200, Loss: 2.0064516067504883, Val Loss: 1.9904066324234009
+Epoch 40/200, Loss: 1.9513312578201294, Val Loss: 1.9671971797943115
+Epoch 60/200, Loss: 1.8924477100372314, Val Loss: 1.9590187072753906
+Epoch 80/200, Loss: 1.8736504316329956, Val Loss: 1.948691487312317
+Epoch 100/200, Loss: 1.8488423824310303, Val Loss: 1.9432621002197266
+Early stopping at epoch 114
+--------------------------------------------
+Global Results:
+Iteration: 42, Dataset: Clothing1M
+Precision: 0.519
+Recall: 0.436
+F1: 0.474
+# of wrong detected error instances: 5792
+# of true detected error instances: 6262
+# of current noisy instances: 12054
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.3145432472229004, Val Loss: 2.231318950653076
+Epoch 20/200, Loss: 2.0088226795196533, Val Loss: 1.989586353302002
+Epoch 40/200, Loss: 1.9971911907196045, Val Loss: 1.9625849723815918
+Epoch 60/200, Loss: 1.9403661489486694, Val Loss: 1.9544024467468262
+Epoch 80/200, Loss: 1.9345955848693848, Val Loss: 1.9468473196029663
+Epoch 100/200, Loss: 1.9345264434814453, Val Loss: 1.9455978870391846
+Epoch 120/200, Loss: 1.926397681236267, Val Loss: 1.9435590505599976
+Early stopping at epoch 128
+--------------------------------------------
+Global Results:
+Iteration: 43, Dataset: Clothing1M
+Precision: 0.52
+Recall: 0.436
+F1: 0.475
+# of wrong detected error instances: 5775
+# of true detected error instances: 6261
+# of current noisy instances: 12036
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.116015911102295, Val Loss: 2.166675090789795
+Epoch 20/200, Loss: 1.9664889574050903, Val Loss: 2.0366854667663574
+Early stopping at epoch 24
+--------------------------------------------
+Global Results:
+Iteration: 44, Dataset: Clothing1M
+Precision: 0.521
+Recall: 0.435
+F1: 0.474
+# of wrong detected error instances: 5731
+# of true detected error instances: 6238
+# of current noisy instances: 11969
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.1767771244049072, Val Loss: 2.1786701679229736
+Epoch 20/200, Loss: 2.0040676593780518, Val Loss: 2.041940689086914
+Epoch 40/200, Loss: 1.9789890050888062, Val Loss: 1.9902058839797974
+Epoch 60/200, Loss: 1.9026373624801636, Val Loss: 1.9588639736175537
+Epoch 80/200, Loss: 1.9108935594558716, Val Loss: 1.951430082321167
+Early stopping at epoch 83
+--------------------------------------------
+Global Results:
+Iteration: 45, Dataset: Clothing1M
+Precision: 0.521
+Recall: 0.434
+F1: 0.474
+# of wrong detected error instances: 5723
+# of true detected error instances: 6234
+# of current noisy instances: 11957
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.253739595413208, Val Loss: 2.2073709964752197
+Epoch 20/200, Loss: 1.9927449226379395, Val Loss: 2.0037505626678467
+Epoch 40/200, Loss: 2.025087594985962, Val Loss: 2.0079283714294434
+Epoch 60/200, Loss: 1.973872423171997, Val Loss: 1.968449354171753
+Epoch 80/200, Loss: 1.9234763383865356, Val Loss: 1.9530926942825317
+Early stopping at epoch 88
+--------------------------------------------
+Global Results:
+Iteration: 46, Dataset: Clothing1M
+Precision: 0.522
+Recall: 0.434
+F1: 0.474
+# of wrong detected error instances: 5714
+# of true detected error instances: 6233
+# of current noisy instances: 11947
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2529985904693604, Val Loss: 2.2216379642486572
+Epoch 20/200, Loss: 2.078000545501709, Val Loss: 2.012594223022461
+Epoch 40/200, Loss: 1.9986354112625122, Val Loss: 1.9635035991668701
+Epoch 60/200, Loss: 1.9800217151641846, Val Loss: 1.9642165899276733
+Epoch 80/200, Loss: 1.9380736351013184, Val Loss: 1.9498956203460693
+Early stopping at epoch 91
+--------------------------------------------
+Global Results:
+Iteration: 47, Dataset: Clothing1M
+Precision: 0.523
+Recall: 0.434
+F1: 0.474
+# of wrong detected error instances: 5694
+# of true detected error instances: 6232
+# of current noisy instances: 11926
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2731637954711914, Val Loss: 2.191605806350708
+Epoch 20/200, Loss: 2.023953676223755, Val Loss: 2.0164191722869873
+Epoch 40/200, Loss: 1.9990330934524536, Val Loss: 1.973383903503418
+Epoch 60/200, Loss: 1.9981213808059692, Val Loss: 1.9652318954467773
+Epoch 80/200, Loss: 1.9294323921203613, Val Loss: 1.9536643028259277
+Epoch 100/200, Loss: 1.9334505796432495, Val Loss: 1.9449082612991333
+Early stopping at epoch 108
+--------------------------------------------
+Global Results:
+Iteration: 48, Dataset: Clothing1M
+Precision: 0.523
+Recall: 0.434
+F1: 0.474
+# of wrong detected error instances: 5682
+# of true detected error instances: 6228
+# of current noisy instances: 11910
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.204914093017578, Val Loss: 2.1310105323791504
+Epoch 20/200, Loss: 2.0508532524108887, Val Loss: 2.0169901847839355
+Epoch 40/200, Loss: 2.0521748065948486, Val Loss: 1.995489239692688
+Epoch 60/200, Loss: 2.034402370452881, Val Loss: 1.976447582244873
+Epoch 80/200, Loss: 1.967240333557129, Val Loss: 1.978676676750183
+Epoch 100/200, Loss: 1.9374301433563232, Val Loss: 1.955846905708313
+Epoch 120/200, Loss: 1.952164888381958, Val Loss: 1.94749116897583
+Early stopping at epoch 125
+--------------------------------------------
+Global Results:
+Iteration: 49, Dataset: Clothing1M
+Precision: 0.523
+Recall: 0.434
+F1: 0.474
+# of wrong detected error instances: 5676
+# of true detected error instances: 6221
+# of current noisy instances: 11897
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2228031158447266, Val Loss: 2.1983089447021484
+Epoch 20/200, Loss: 2.0514140129089355, Val Loss: 2.006577253341675
+Epoch 40/200, Loss: 1.9932379722595215, Val Loss: 1.9831682443618774
+Epoch 60/200, Loss: 1.9914774894714355, Val Loss: 1.9690405130386353
+Epoch 80/200, Loss: 1.9599311351776123, Val Loss: 1.962692141532898
+Epoch 100/200, Loss: 1.9375890493392944, Val Loss: 1.9508986473083496
+Early stopping at epoch 109
+--------------------------------------------
+Global Results:
+Iteration: 50, Dataset: Clothing1M
+Precision: 0.523
+Recall: 0.433
+F1: 0.474
+# of wrong detected error instances: 5670
+# of true detected error instances: 6219
+# of current noisy instances: 11889
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2433013916015625, Val Loss: 2.1888530254364014
+Epoch 20/200, Loss: 2.029115915298462, Val Loss: 2.028233528137207
+Early stopping at epoch 23
+--------------------------------------------
+Global Results:
+Iteration: 51, Dataset: Clothing1M
+Precision: 0.522
+Recall: 0.43
+F1: 0.472
+# of wrong detected error instances: 5638
+# of true detected error instances: 6169
+# of current noisy instances: 11807
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.199235439300537, Val Loss: 2.1619739532470703
+Epoch 20/200, Loss: 1.9772491455078125, Val Loss: 1.9890881776809692
+Epoch 40/200, Loss: 1.9483004808425903, Val Loss: 1.9678301811218262
+Epoch 60/200, Loss: 1.9129846096038818, Val Loss: 1.9559382200241089
+Epoch 80/200, Loss: 1.924367070198059, Val Loss: 1.9485315084457397
+Epoch 100/200, Loss: 1.8916350603103638, Val Loss: 1.9415669441223145
+Epoch 120/200, Loss: 1.8858729600906372, Val Loss: 1.938180685043335
+Early stopping at epoch 131
+--------------------------------------------
+Global Results:
+Iteration: 52, Dataset: Clothing1M
+Precision: 0.523
+Recall: 0.43
+F1: 0.472
+# of wrong detected error instances: 5617
+# of true detected error instances: 6164
+# of current noisy instances: 11781
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.1991610527038574, Val Loss: 2.217726469039917
+Epoch 20/200, Loss: 2.0216550827026367, Val Loss: 2.0205154418945312
+Early stopping at epoch 23
+--------------------------------------------
+Global Results:
+Iteration: 53, Dataset: Clothing1M
+Precision: 0.523
+Recall: 0.427
+F1: 0.47
+# of wrong detected error instances: 5586
+# of true detected error instances: 6123
+# of current noisy instances: 11709
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2896199226379395, Val Loss: 2.2891201972961426
+Epoch 20/200, Loss: 2.0192060470581055, Val Loss: 2.0068416595458984
+Early stopping at epoch 40
+--------------------------------------------
+Global Results:
+Iteration: 54, Dataset: Clothing1M
+Precision: 0.523
+Recall: 0.425
+F1: 0.469
+# of wrong detected error instances: 5556
+# of true detected error instances: 6101
+# of current noisy instances: 11657
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.168630599975586, Val Loss: 2.1433889865875244
+Epoch 20/200, Loss: 2.005023717880249, Val Loss: 2.0085830688476562
+Epoch 40/200, Loss: 2.0380046367645264, Val Loss: 1.9896618127822876
+Epoch 60/200, Loss: 1.9937243461608887, Val Loss: 1.9750624895095825
+Early stopping at epoch 69
+--------------------------------------------
+Global Results:
+Iteration: 55, Dataset: Clothing1M
+Precision: 0.524
+Recall: 0.425
+F1: 0.469
+# of wrong detected error instances: 5541
+# of true detected error instances: 6092
+# of current noisy instances: 11633
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.212015151977539, Val Loss: 2.2058043479919434
+Epoch 20/200, Loss: 1.952914834022522, Val Loss: 1.9890581369400024
+Early stopping at epoch 31
+--------------------------------------------
+Global Results:
+Iteration: 56, Dataset: Clothing1M
+Precision: 0.525
+Recall: 0.423
+F1: 0.468
+# of wrong detected error instances: 5502
+# of true detected error instances: 6069
+# of current noisy instances: 11571
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2786946296691895, Val Loss: 2.172750234603882
+Epoch 20/200, Loss: 2.0546586513519287, Val Loss: 2.0246503353118896
+Epoch 40/200, Loss: 1.9213837385177612, Val Loss: 1.9962921142578125
+Epoch 60/200, Loss: 1.8666764497756958, Val Loss: 1.9602292776107788
+Early stopping at epoch 75
+--------------------------------------------
+Global Results:
+Iteration: 57, Dataset: Clothing1M
+Precision: 0.525
+Recall: 0.423
+F1: 0.468
+# of wrong detected error instances: 5492
+# of true detected error instances: 6064
+# of current noisy instances: 11556
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.4030227661132812, Val Loss: 2.267636299133301
+Epoch 20/200, Loss: 1.9452944993972778, Val Loss: 2.018749475479126
+Epoch 40/200, Loss: 2.036107301712036, Val Loss: 1.9657377004623413
+Early stopping at epoch 58
+--------------------------------------------
+Global Results:
+Iteration: 58, Dataset: Clothing1M
+Precision: 0.526
+Recall: 0.422
+F1: 0.468
+# of wrong detected error instances: 5467
+# of true detected error instances: 6059
+# of current noisy instances: 11526
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2584609985351562, Val Loss: 2.2188057899475098
+Epoch 20/200, Loss: 1.994700312614441, Val Loss: 2.0269410610198975
+Epoch 40/200, Loss: 2.0117642879486084, Val Loss: 1.982391357421875
+Epoch 60/200, Loss: 1.966338872909546, Val Loss: 1.962935209274292
+Early stopping at epoch 68
+--------------------------------------------
+Global Results:
+Iteration: 59, Dataset: Clothing1M
+Precision: 0.526
+Recall: 0.422
+F1: 0.468
+# of wrong detected error instances: 5458
+# of true detected error instances: 6051
+# of current noisy instances: 11509
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.2457451820373535, Val Loss: 2.2105302810668945
+Epoch 20/200, Loss: 2.0161471366882324, Val Loss: 2.044780731201172
+Epoch 40/200, Loss: 2.057103157043457, Val Loss: 2.061854839324951
+Epoch 60/200, Loss: 1.9048242568969727, Val Loss: 1.9985096454620361
+Epoch 80/200, Loss: 1.9173243045806885, Val Loss: 1.9859142303466797
+Epoch 100/200, Loss: 1.9173243045806885, Val Loss: 1.971016764640808
+Early stopping at epoch 112
+--------------------------------------------
+Global Results:
+Iteration: 60, Dataset: Clothing1M
+Precision: 0.526
+Recall: 0.421
+F1: 0.468
+# of wrong detected error instances: 5455
+# of true detected error instances: 6048
+# of current noisy instances: 11503
+--------------------------------------------
+
+
+Device: cuda
+Epoch 0/200, Loss: 2.218566417694092, Val Loss: 2.2015421390533447
+Epoch 20/200, Loss: 1.9238933324813843, Val Loss: 2.0353949069976807
+Epoch 40/200, Loss: 1.8976786136627197, Val Loss: 2.016655445098877
+Epoch 60/200, Loss: 1.8738844394683838, Val Loss: 1.9852218627929688
+Epoch 80/200, Loss: 1.8496596813201904, Val Loss: 1.9706393480300903
+Traceback (most recent call last):
+  File "/home/lnduyphong/COLA/clothing.py", line 33, in <module>
+    run_process()
+  File "/home/lnduyphong/COLA/clothing.py", line 28, in run_process
+    detector.global_detection(-1)
+  File "/home/lnduyphong/COLA/ErrorLabelDetection.py", line 166, in global_detection
+    for X_batch, y_batch in train_loader:
+  File "/home/lnduyphong/COLA/cola/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+  File "/home/lnduyphong/COLA/cola/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/lnduyphong/COLA/cola/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/lnduyphong/COLA/cola/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/lnduyphong/COLA/cola/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 211, in __getitem__
+    return tuple(tensor[index] for tensor in self.tensors)
+  File "/home/lnduyphong/COLA/cola/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 211, in <genexpr>
+    return tuple(tensor[index] for tensor in self.tensors)
+KeyboardInterrupt

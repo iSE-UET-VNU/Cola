@@ -29,12 +29,12 @@ $ pip install -r requirements.txt
 $ python3 main.py --data_type text --dataset_name ag_news --noise_type sym --error_rate 0.05 --encode_model bert-base-uncased
 ```
 
-#### Ag News
+#### DBpedia
 ```bash
 $ python3 main.py --data_type text --dataset_name jxm/dbpedia --noise_type sym --error_rate 0.05 --encode_model bert-base-uncased
 ```
 
-#### DBpedia
+#### Cifar10
 ```bash
 $ python3 main.py --data_type image --dataset_name cifar10 --noise_type sym --error_rate 0.05 --encode_model facebook/dinov2-base
 ```

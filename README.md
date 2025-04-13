@@ -44,7 +44,7 @@ $ python3 main.py --data_type image --dataset_name cifar10 --noise_type sym --er
 $ python3 main.py --data_type image --dataset_name cifar100 --noise_type sym --error_rate 0.05 --encode_model facebook/dinov2-base
 ```
 
-We recommend using dinov2-base for better performance, however, for reproducing experiment results you can also download the data embedded by CLIP [here](https://drive.google.com/drive/folders/1b6U_x3NzdXa7tc23CkN5aEMdHS44kVhX?usp=sharing)
+We recommend using dinov2-base for better performance; however, for reproducing experiment results, you can also download the data embedded by CLIP ViT-B/32 [here](https://drive.google.com/drive/folders/1b6U_x3NzdXa7tc23CkN5aEMdHS44kVhX?usp=sharing)
 
 ## Citation
 If you're using Cola in your research or applications, please consider citing our paper:
